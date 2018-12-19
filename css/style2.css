@@ -1,0 +1,329 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #262626;
+}
+
+.bg-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 300px;
+	transform: translate(-50%,-50%);
+	/*background-color: salmon;*/
+}
+
+.hud {
+	position: fixed;
+	border-radius: 50%;
+}
+   
+.titik {
+	transform: translate(-50%,-50%);
+	background-color: #1E77CD;
+	width: 10px;
+	height: 10px;
+	top: 50%;
+	left: 50%;
+}
+
+.hud-1 {
+	border: 20px dashed #1E77CD;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	animation: hud-1 4s linear infinite;
+}
+
+.hud-2 {
+	border: 10px dashed #1E77CD;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	animation: hud-2 4s linear infinite;
+}
+
+.hud-3 {
+	border: 5px dotted #1E77CD;
+	top: 30px;
+	left: 30px;
+	bottom: 30px;
+	right: 30px;
+	animation: hud-3 4s linear infinite;
+}
+
+.hud-4 {
+	border: 10px dashed #1E77CD;
+	top: 50px;
+	left: 50px;
+	bottom: 50px;
+	right: 50px;
+	animation: hud-4 4s ease-in-out reverse infinite;
+}
+
+.hud-5 {
+	border: 7px solid #1E77CD;
+	top: 110px;
+	left: 110px;
+	bottom: 110px;
+	right: 110px;
+	animation: hud-5 4s linear infinite;
+}
+
+.hud-6 {
+	border: 5px solid #1E77CD;
+	top: 70px;
+	left: 70px;
+	bottom: 70px;
+	right: 70px;
+	animation: hud-6 4s linear infinite;
+}
+
+.hud-7 {
+	border: 35px dashed #1E77CD;
+	top: 70px;
+	left: 70px;
+	bottom: 70px;
+	right: 70px;
+	/*transform: rotate(45deg);*/
+	animation: hud-7 4s linear infinite;
+}
+
+.hud-8 {
+	border: 5px dashed #1E77CD;
+	top: 130px;
+	left: 130px;
+	bottom: 130px;
+	right: 130px;
+	animation: hud-8 4s ease-in-out infinite;
+}
+
+
+@keyframes hud-1 {
+	0% {
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+		transform: rotate(0deg);
+	}
+	50% {
+		top: 30px;
+		left: 30px;
+		bottom: 30px;
+		right: 30px;
+		/*transform: rotate(360deg);*/
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes hud-2 {
+	0% {
+		top: 10px;
+		left: 10px;
+		bottom: 10px;
+		right: 10px;
+		transform: rotate(0deg);
+	}
+	50% {
+		top: 30px;
+		left: 30px;
+		bottom: 30px;
+		right: 30px;
+		/*transform: rotate(360deg);*/
+	}
+	100% {
+		top: 10px;
+		left: 10px;
+		bottom: 10px;
+		right: 10px;
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes hud-3 {
+	0% {
+		top: 30px;
+		left: 30px;
+		bottom: 30px;
+		right: 30px;
+		transform: rotate(0deg);
+	}
+	25% {
+		top: 55px;
+		left: 55px;
+		bottom: 55px;
+		right: 55px;
+		/*transform: rotate(9deg);*/
+	}
+	50% {
+		top: 110px;
+		left: 110px;
+		bottom: 110px;
+		right: 110px;
+		/*transform: rotate(90deg);*/
+	}
+	75% {
+		top: 110px;
+		left: 110px;
+		bottom: 110px;
+		right: 110px;
+		/*transform: rotate(0deg);*/
+	}
+	100% {
+		top: 30px;
+		left: 30px;
+		bottom: 30px;
+		right: 30px;
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes hud-4 {
+	0% {
+		top: 50px;
+		left: 50px;
+		bottom: 50px;
+		right: 50px;
+		transform: rotate(0deg);
+	}
+	25% {
+		top: 40px;
+		left: 40px;
+		bottom: 40px;
+		right: 40px;
+		/*transform: rotate(0deg);*/
+	}
+	50% {
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+		/*transform: rotate(0deg);*/
+	}
+
+	100% {
+		top: 50px;
+		left: 50px;
+		bottom: 50px;
+		right: 50px;
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes hud-5 {
+	50% {
+		top: 110px;
+		left: 110px;
+		bottom: 110px;
+		right: 110px;
+		/*transform: rotate(0deg);*/
+	}
+	65% {
+		top: 70px;
+		left: 70px;
+		bottom: 70px;
+		right: 70px;
+		/*transform: rotate(180deg);*/
+	}
+	85% {
+		top: 70px;
+		left: 70px;
+		bottom: 70px;
+		right: 70px;
+		/*transform: rotate(180deg);*/
+	}
+	100% {
+		top: 110px;
+		left: 110px;
+		bottom: 110px;
+		right: 110px;
+		/*transform: rotate(0deg);*/
+	}
+}
+
+@keyframes hud-6 {
+	50% {
+		top: 70px;
+		left: 70px;
+		bottom: 70px;
+		right: 70px;
+	}
+	65% {
+		top: 100px;
+		left: 100px;
+		bottom: 100px;
+		right: 100px;
+	}
+	85% {
+		top: 100px;
+		left: 100px;
+		bottom: 100px;
+		right: 100px;
+	}
+	100% {
+		top: 70px;
+		left: 70px;
+		bottom: 70px;
+		right: 70px;
+	}
+}
+
+@keyframes hud-7 {
+	60% {
+		top: 70px;
+		left: 70px;
+		bottom: 70px;
+		right: 70px;
+		transform: rotate(45deg);
+	}
+	85% {
+		top: 57px;
+		left: 57px;
+		bottom: 57px;
+		right: 57px;
+	}
+	100% {
+		top: 70px;
+		left: 70px;
+		bottom: 70px;
+		right: 70px;
+		transform: rotate(270deg);
+	}
+}
+
+@keyframes hud-8 {
+	0% {
+		transform: rotate(-100deg);
+	}
+	60% {
+		top: 130px;
+		left: 130px;
+		bottom: 130px;
+		right: 130px;
+		transform: rotate(0deg);
+	}
+	80% {
+		top: 130px;
+		left: 130px;
+		bottom: 130px;
+		right: 130px;
+		transform: rotate(270deg);
+	}
+	100% {
+		top: 130px;
+		left: 130px;
+		bottom: 130px;
+		right: 130px;
+		transform: rotate(0deg);
+	}
+}
